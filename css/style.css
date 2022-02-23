@@ -1,0 +1,329 @@
+body{
+    background: url("../images/Product image.png") no-repeat;
+    background-position: right top;
+    background-size: 50% auto;
+}
+.navbar{
+    background: transparent !important;
+}
+.navbar .navbar-toggler-icon {
+    opacity: 1 !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(244, 98, 20, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+.navbar-light .navbar-toggler {
+    color: rgb(244, 98, 20) !important;
+    border-color: rgb(244, 98, 20) !important;
+}
+.header-btn{
+    background: #F16214 !important;
+    border: 1px solid #F16214 !important;
+    padding: 10px !important;
+    color: #EEEEEE !important;
+    width: 150px;
+    height: 50px;
+}
+.header-btn:hover{
+    background: #ff5c00 !important;
+    width: 170px;
+    height: 60px;
+    transition: 1s linear .5s;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 16px;
+}
+.nav-link:hover {
+    color: #F16214 !important;
+}
+.main-title {
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 91px;
+    color: #000000;
+}
+.main-text{
+    font-size: 16px;
+    line-height: 150%;
+    color: #888888;
+}
+.social-link{
+    padding: 15px 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background: rgba(241, 98, 20, 0.15);
+}
+.social-link:hover{
+    background: #F16214;
+}
+.social-link:hover i{
+    color: #fff;
+}
+.social-site{
+    color: #F16214;
+}
+.phone-blocks{
+    margin-top: 120px !important;
+}
+.phone-block{
+    background: #FFFFFF;
+    box-shadow: 0px 22px 52px rgba(0, 0, 0, 0.07);
+    border-radius: 60px 0px;
+    text-align: center;
+
+}
+.phone-block-img{
+    padding: 15px 15px;
+    color: #ffff;
+    background: #F16214;
+    border-radius: 50%;
+}
+.phone-block-body{
+    padding: 60px;
+}
+.phone-block-body p{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-top: 16px;
+}
+.phone-block-body span{
+    font-size: 13px;
+    line-height: 16px;
+    color: #888888;
+}
+.bor{
+    border-right: 1.5px solid #DDDDDD;
+}
+.diet-block{
+    margin-top: 150px;
+    padding-bottom: 20%;
+    background: url("../images/sushi-sashimi-smoked-salmon-japanese-cuisine-onigiri-sushi-7ca71738ec75ea9dd90d4310264dcc9e.png") no-repeat;
+    background-size: 50% auto;
+}
+.diet-block-body h4,
+.services h4,
+.product h4,
+.testi-text{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 17px;
+    color: #F16214;
+}
+.diet-block-body h3,
+.services h3,
+.product h3,
+.testi-text-h5{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+}
+.diet-block-body p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #888888;
+}
+.services{
+    text-align: center;
+}
+.services-block {
+    margin-top: 60px!important;
+}
+.services-img{
+    padding: 20px;
+    margin-top: 70px;
+    color: #F16214;
+    border-radius: 50%;
+    background: rgba(241, 98, 20, 0.15);
+}
+.services-block-body {
+    border: 2px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 60px 0px;
+}
+.services-block-body:hover{
+    box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.2);
+}
+.services-block-body h5{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #000000;
+}
+.services-block-body p {
+    font-size: 16px;
+    line-height: 160%;
+    color: #888888;
+    padding: 0 20px;
+}
+.card{
+    border: 2px solid #EEEEEE;
+    border-radius: 50px 0px !important;
+}
+.card:hover{
+    box-shadow: 5px 15px 45px rgba(0, 0, 0, 0.5);
+}
+.card img {
+    border-radius: 50px 0px 0px !important;
+}
+.card-body{
+    padding: 2rem 1rem 3rem !important;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px !important;
+}
+.card-btn{
+    width: 100px;
+    height: 40px;
+    background: #F16214;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    border: none;
+}
+.star-text{
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+}
+.star{
+    color: #F16214;
+}
+.price{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+.product{
+    margin-top: 120px;
+}
+
+/*down*/
+.download{
+    margin-top: 150px;
+}
+.down-bg{
+    background: url("../images/BG.png") no-repeat;
+    background-size: 100% 100%;
+}
+.download-subTitle,
+.subcribe-block-text h4{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+.down-btn{
+    padding: 12px 20px 12px 45px;
+    background: #FFFFFF;
+    border-radius: 13px;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 13px;
+    color: #000000;
+    text-align: center;
+    position: relative;
+    margin: 10px 5px;
+}
+.down-btn:hover{
+    background: #F16214;
+    color: #EEEEEE;
+}
+.apple::after{
+    content: '';
+    top: 10%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    background: url("../images/icon (1).png") no-repeat;
+    position: absolute;
+}
+.gPlay::after{
+    content: '';
+    top: 10%;
+    left: 5%;
+    width: 100%;
+    height: 100%;
+    background: url("../images/icon.png") no-repeat;
+    position: absolute;
+}
+.down-btn small{
+    font-size: 11px;
+    color: #888888;
+    padding: 5px;
+}
+
+
+
+
+
+/*test*/
+.testi-block{
+    background: url("../images/vegetable-food-diet-health-eating-vegetables-and-fork-2eaceb13dbe391d6ddd9e988c59d4f22.png") no-repeat;
+    margin-top: 120px;
+    background-size: 20% auto;
+}
+.user-ava{
+    border-radius: 50%;
+}
+.user-comment{
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #888888;
+}
+
+.subcribe-block{
+    margin-top: 100px;
+    background: url("../images/BG-2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.subcribe-block-text p{
+    font-size: 16px;
+    line-height: 150%;
+    color: #888888;
+}
+.footer{
+    padding: 50px 0;
+    margin-top: 120px;
+    background: #F5F5F5;
+}
+
+.social-footer-link{
+    padding: 15px;
+    border-radius: 50%;
+    background: rgba(241, 98, 20, 0.15);
+}
+.social-site-footer{
+    color: #F16214;
+}
+.social-footer-link:hover{
+    background: #F16214;
+}
+.social-footer-link:hover i{
+    color: #fff;
+}
+
+.footer-link{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 150%;
+    color: #000000;
+}
+.footer-link:hover{
+    color: #F16214;
+}
+
+@media (max-width: 576px) {
+    .main-title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
